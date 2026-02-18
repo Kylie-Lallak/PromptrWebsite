@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import logoFull from 'figma:asset/f6615e4c289f276398733fa95328d0b0413f681a.png';
+import logoFull from '../../assets/fullLogo.png';
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);

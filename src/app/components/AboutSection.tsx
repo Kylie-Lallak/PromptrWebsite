@@ -20,7 +20,7 @@ export function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          Truth, indifference, clean
+          Chat, Prompt, Build
         </motion.h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -33,9 +33,9 @@ export function AboutSection() {
             whileHover={{ y: -8, boxShadow: '0 20px 40px rgba(0, 0, 0, 0.1)' }}
           >
             <div className="text-5xl mb-4 text-black">01.</div>
-            <h3 className="text-2xl mb-4 text-black">First-Prompt Accuracy</h3>
+            <h3 className="text-2xl mb-4 text-black">Chat</h3>
             <p className="text-gray-600 leading-relaxed">
-              No more iterating back and forth. Promptr understands complex requirements and delivers exactly what you need on the first try.
+              Promptr works with you to understand exactly which features your app needs
             </p>
           </motion.div>
           
@@ -48,9 +48,9 @@ export function AboutSection() {
             whileHover={{ y: -8, boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)' }}
           >
             <div className="text-5xl mb-4">02.</div>
-            <h3 className="text-2xl mb-4">Noble, mysterious, cold</h3>
+            <h3 className="text-2xl mb-4">Prompt</h3>
             <p className="text-gray-300 leading-relaxed">
-              Built on advanced prompt engineering research and multi-agent systems that translate your vision into production-ready code.
+              Built on advanced prompt engineering research and multi-agent systems that translate your vision into step by step prompts to build your vison.
             </p>
           </motion.div>
           
@@ -70,9 +70,9 @@ export function AboutSection() {
             whileHover={{ y: -8, boxShadow: '0 20px 40px rgba(59, 130, 246, 0.3)' }}
           >
             <div className="text-5xl mb-4">03.</div>
-            <h3 className="text-2xl mb-4">Wisdom, hope, reason, peace</h3>
+            <h3 className="text-2xl mb-4">Build</h3>
             <p className="text-white/90 leading-relaxed">
-              Focus on building great products, not wrestling with ambiguous AI outputs. Promptr brings clarity to AI-assisted development.
+              Copy and paste the prompts into your LLM or AI app builder of choice—and build the app you actually want
             </p>
           </motion.div>
         </div>

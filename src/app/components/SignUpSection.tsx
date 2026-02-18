@@ -89,8 +89,8 @@ export function SignUpSection() {
           </div>
           <div>
             <div className="text-3xl mb-3 text-black">🎯</div>
-            <h3 className="text-xl mb-2 text-black">Built for Developers</h3>
-            <p className="text-gray-600">Production-ready code, not prototypes</p>
+            <h3 className="text-xl mb-2 text-black">Built for non-technical founders</h3>
+            <p className="text-gray-600">Production-ready code, no experince</p>
           </div>
           <div>
             <div className="text-3xl mb-3 text-black">🚀</div>

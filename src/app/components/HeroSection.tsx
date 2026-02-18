@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import logoFull from 'figma:asset/f6615e4c289f276398733fa95328d0b0413f681a.png';
+import logoFull from '../../assets/fullLogo.png';
 
 export function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -42,7 +42,7 @@ export function HeroSection() {
           <motion.img
             src={logoFull}
             alt="Promptr"
-            className="h-12 sm:h-14"
+            className="h-14 sm:h-16"
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 300, damping: 20 }}
           />
@@ -61,7 +61,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          AI-powered code generation that understands what you want from the first prompt.
+          Generate precise prompts to bring your app idea to life.
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"

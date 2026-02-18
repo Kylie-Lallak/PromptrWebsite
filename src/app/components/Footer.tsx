@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Linkedin } from 'lucide-react';
-import logo from 'figma:asset/98e8f0edad5a3c85110d1f971d685e0f49e9a80b.png';
+import logo from '../../assets/Logo.png';
 
 export function Footer() {
   return (
