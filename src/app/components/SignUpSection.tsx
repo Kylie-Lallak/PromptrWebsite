@@ -41,7 +41,7 @@ export function SignUpSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <motion.a
-            href="https://forms.google.com/your-early-access-form"
+            href="https://forms.gle/PiZvPS94Cvh5n1Xh8"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-black text-white rounded-full text-lg flex items-center justify-center gap-2 group no-underline"
@@ -53,7 +53,7 @@ export function SignUpSection() {
           </motion.a>
           
           <motion.a
-            href="https://forms.google.com/your-feedback-form"
+            href="https://forms.gle/3KBjwK35DchDfsC98"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-white border-2 border-black rounded-full text-lg flex items-center justify-center gap-2 group no-underline text-black hover:bg-black hover:text-white transition-all"

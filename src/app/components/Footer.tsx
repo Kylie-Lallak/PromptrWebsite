@@ -49,7 +49,7 @@ export function Footer() {
           </div>
           
           <motion.a
-            href="https://www.linkedin.com/company/promptr"
+            href="https://www.linkedin.com/in/promptr-promptr-39a8b63ab/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
